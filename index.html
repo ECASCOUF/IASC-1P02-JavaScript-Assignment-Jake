@@ -1,0 +1,82 @@
+<html>
+<head>
+  <title> JavaScript Assignment </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="script.js"></script>
+ </head>
+<body>
+</br>
+</br>
+</br>
+<p class="title"> IASC 1P02 JavaScript Assignment - Jake Charlebois</p>
+</br>
+</br>
+</br>
+<div class="main">
+<p id="date"></p>
+</br>
+  This is a JavaScript Calculator for Numbers
+</div>
+<div class="numCalculator">
+  <form name="frm">
+    <input disabled="disabled"name="result" class="numDisplay">
+  </br>
+
+  <input type="button" name="Clear" value="Clear" class="clearNumButton" onclick="runClear()">
+  </br>
+  </br>
+    <input type="button" name="1" value="1" class="numButton" onclick="run1()">
+    <input type="button" name="2" value="2" class="numButton" onclick="run2()">
+    <input type="button" name="3" value="3" class="numButton" onclick="run3()">
+    <input type="button" name="+" value="+" class="numButton" onclick="add()">
+  </br>
+  <input type="button" name="4" value="4" class="numButton" onclick="run4()">
+  <input type="button" name="5" value="5" class="numButton" onclick="run5()">
+  <input type="button" name="6" value="6" class="numButton" onclick="run6()">
+  <input type="button" name="-" value="-" class="numButton" onclick="subtract()">
+  </br>
+  <input type="button" name="7" value="7" class="numButton" onclick="run7()">
+  <input type="button" name="8" value="8" class="numButton" onclick="run8()">
+  <input type="button" name="9" value="9" class="numButton" onclick="run9()">
+  <input type="button" name="*" value="*" class="numButton" onclick="multiply()">
+  </br>
+  <input type="button" name="0" value="0" class="numButton" onclick="run0()">
+  <input type="button" name="/" value="/" class="numButton" onclick="divide()">
+  <input type="button" name="=" value="=" class="numButtonEvalue" onclick="equal()">
+  </br>
+  </form>
+  </div>
+  </br>
+  </br>
+  </br>
+<div class="main"> This is a JavaScript Calculator for Words
+</br>
+<p class="mainSmall">It accepts entry from numbers one to five.</p>
+  </div>
+
+
+</body>
+<div class="wordCalculator">
+  <form name="frm2">
+    First Value
+  <input class="wordOne"name="wordOne" id=wordOne>
+  </br>
+  <input type="button" name="+" value="+" class="wordButton" onclick="add2()">
+  <input type="button" name="-" value="-" class="wordButton" onclick="subtract2()">
+  <input type="button" name="*" value="*" class="wordButton" onclick="multiply2()">
+  <input type="button" name="/" value="/" class="wordButton" onclick="divide2()">
+  </br>
+  <input disabled="disabled" name="choose" class="choose">
+</br>
+    Second Value
+    <input class="wordTwo" name="wordTwo" id=wordTwo>
+  </br>
+  <input type="button" name="calculate" value="Calculate" class="calculateButton" onclick="equal2()">
+  </br>
+    <input disabled="disabled"name="result2" class="wordDisplay">
+  </br>
+  <input type="button" name="reset" value="Reset" onclick="runReset()">
+  </br>
+  </form>
+  </div>
+</html>

@@ -1,0 +1,138 @@
+/**This is for the Number Calculator**/
+input.numButton {
+        width: 50;
+        height:50;
+        font-size: 30;
+        font-family: sans-serif;
+        font-weight: bolder;
+
+      }
+      input.numButtonEvalue {
+        width: 106;
+        height:50;
+        font-size: 30;
+        font-family: sans-serif;
+        font-weight: bolder;
+        background-color: #F3E2A9
+
+      }
+      input.clearNumButton {
+        width: 100;
+        height:30;
+        font-size: 20;
+        font-family: sans-serif;
+        font-weight: bold;
+        position: relative;
+       margin-left: 130px;
+       }
+      input.numDisplay {
+        width: 230;
+        height:50;
+        font-size: 20;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: right;
+      }
+
+      div.numCalculator {
+        width:230px;
+        padding: 10px;
+        border: 10px black;
+        margin-top: 30px;
+        margin-left: auto ;
+        margin-right: auto ;
+
+          background-color: lightgrey;
+          font-size: 20;
+          font-family: sans-serif;
+          text-align: center;
+
+      }
+/**This is for the Word Calculator**/
+input.wordButton {
+        width: 50;
+        height:50;
+        font-size: 30;
+        font-family: sans-serif;
+        font-weight: bolder;
+
+      }
+      input.calculateButton {
+        width: auto;
+        background-color: #F3E2A9
+        height:50;
+        font-size: 20;
+        font-family: sans-serif;
+      }
+
+      input.wordDisplay {
+        width: 230;
+        height:50;
+        font-size: 20;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: right;
+      }
+      input.wordOne {
+        width: 230;
+        height:50;
+        font-size: 20;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: center;
+      }
+      input.choose {
+        width: 50;
+        height:50;
+        font-size: 30;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: center;
+      }
+      input.wordTwo {
+        width: 230;
+        height:50;
+        font-size: 20;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+      div.wordCalculator {
+        width:230px;
+        padding: 10px;
+        border: 10px black;
+        margin-top: 30px;
+        margin-left: auto ;
+        margin-right: auto ;
+
+          background-color: lightgrey;
+          font-size: 20;
+          font-family: sans-serif;
+          text-align: center;
+
+      }
+/**This is for the Other Stuff**/
+div.main{
+  text-align: center;
+  color: white;
+}
+p.mainSmall{
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+p.title{
+  text-align: center;
+  color: white;
+  font-size: 35;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+body {
+    margin: 50px;
+    background-color: grey;
+    font-size: 20;
+    font-family: sans-serif;
+
+}
